@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 15px;
+}
+.table {
+    margin-top: 150px;
+}
+.nav-pills {
+    gap: 5px;
+}
+.nav-link {
+    transition: all .5s ease;
+}
+.nav-link:hover {
+    background-color: #6b8dc0;
+    color: #fff;
+}
+
+.form-header {
+    text-align: center;
+}
+form {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.btn {
+    margin-top: 100px;
+}
+.btn_submit {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+}
+.card img {
+    padding: 10px;
+    object-fit: cover;
+}

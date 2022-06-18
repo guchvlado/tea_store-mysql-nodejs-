@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <nav class="tabs">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="/">Назад</a>
+                </nav>
+            </nav>
+        </header>
+
+        <button type="button" class="btn btn-primary">Запрос</button>
+        <p>Получить карточки с чаем(join tea and tea_photo)</p>
+
+        <div class="cards"></div>
+
+        <button type="button" class="btn btn-primary">Запрос</button>
+        <p>Комплексный Запрос на получении имени покупателя, id корзины, id чая и стоимости этого чая</p>
+
+        
+        <button type="button" class="btn btn-primary">Запрос</button>
+        <p>Комплексный Запрос на получении суммы всех покупок каждого клиента в порядке убывания</p>
+
+        <button type="button" class="btn btn-primary">Запрос</button>
+        <p>Комплексный Запрос на получении имени клиента, его адреса(или адресов) и даты доставки</p>
+
+        
+
+        <table class="table table-striped"></table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="joins.js"></script>
+</body>
+</html>
