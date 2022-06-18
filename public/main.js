@@ -100,6 +100,7 @@ form.addEventListener('submit', (e) => {
             'Content-Type': 'application/json'
         }
     })
+    .then(setTimeout(() => getTable(tableName)), 300)
 })
 
 getTable('tea')
